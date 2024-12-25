@@ -11,7 +11,7 @@ const app = express()
 app.use(cookieParser())
 app.use(express.json())
 app.use(cors({
-    origin: "https://fullstack-frontend-q1ws.vercel.app"
+    origin: "https://fullstack-frontend-q1ws.vercel.app",
     credentials: true
 }))
 
